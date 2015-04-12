@@ -1,0 +1,12 @@
+#node
+node_modules/
+
+#extension template file
+popup.html
+popup.js
+
+#bootstrap
+fonts/
+
+#windows
+thumbs.db

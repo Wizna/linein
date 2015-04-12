@@ -1,0 +1,12 @@
+input {
+    margin-top: 8px;
+}
+
+input.btn {
+    margin-top: 20px;
+}
+
+#container {
+    max-width: 250px;
+    min-width: 240px;
+}
