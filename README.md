@@ -3,10 +3,14 @@ A chrome extension to write and read comments on some sites.
 
 ### Test
 To test the UI statically,
+
 1. cd to the "linein" directory
 2. run `node static.js` (Note that `Express` is required)
 
 ### Change log
+####v0.1.1 (Apr 15, 2015)
+* Use less instead of css.
+
 ####v0.1 (Apr 15, 2015)
 * Add a settings page.
 * Import [Buttons](http://www.bootcss.com/p/buttons/) and [iCheck](http://fronteed.com/iCheck/).
