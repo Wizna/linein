@@ -1,0 +1,102 @@
+all {
+    font-family:"Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+#logo {
+    display: block;
+    height: 40px;
+    width: 240px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+/*    background-color: azure;*/
+}
+
+#info{
+    align-content: center;
+}
+
+.tab-content input {
+    margin-top: 8px;
+}
+
+.tab-content a {
+    margin: 8px 0 8px 0;
+}
+
+input.btn {
+    margin-top: 20px;
+}
+
+#container {
+    padding: 8px 1px 0 1px;
+    max-width: 260px;
+/*    min-width: 260px;*/
+    background-color: whitesmoke;
+}
+
+#info a {
+    margin-top: 8px;
+}
+
+#avatar {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+}
+
+section#nickname {
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.tab-pane {
+    padding: 10px 0 10px 0;
+    background-color: white;
+}
+
+#copyright {
+    color: rgba(94, 94, 94, 0.8);
+    font-size: smaller;
+}
+
+#settings {
+    text-align: left;
+    padding-left: 50px;
+}
+
+#settings input {
+}
+
+.settingTitle {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.radioGroup {
+    display: inline-block;
+}
+
+.choice {
+    margin: 0 0 5px 5px;
+}
+
+#setting2 {
+    margin-top: 8px;
+}
+
+#setting2 .settingTitle {
+    vertical-align: top;
+}
+
+#setting3 {
+    margin-top: 1px;
+}
+
+#setting3 #maxnInput {
+    max-width: 30px;
+    margin-right: 5px;
+}

@@ -10,3 +10,7 @@ fonts/
 
 #windows
 thumbs.db
+
+#large image
+*large.jpg
+*large.png

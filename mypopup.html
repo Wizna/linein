@@ -2,12 +2,13 @@
 <html lang="zh-CN">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="mypopup.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     </head>
     <body>
 <!--        标签页参考：http://v3.bootcss.com/components/#nav-tabs-->
         <div id="container">
+            <img id="logo" src="resources/banner.png" alt="LOGO" />
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="active" role="presentation"><a href="#signup">注册</a></li>
                 <li role="presentation"><a href="#login">登陆</a></li>
@@ -22,18 +23,19 @@
                     </form>
                 </div>
                 <div class="tab-pane" id="login" role="tabpanel">
-                    <form action="#">
-                        <input class="form-control" name="email" type="email" placeholder="邮箱" required autofocus />
-                        <input class="form-control" name="password" type="password" placeholder="密码" required />
+                    <form action="settings.html">
+                        <input class="form-control" name="email" type="email" placeholder="邮箱"  autofocus />
+                        <input class="form-control" name="password" type="password" placeholder="密码"  />
                         <input class="btn btn-primary btn-block" type="submit" value="登陆" />
                     </form>
                 </div>
             </div>
+            <section id="copyright">Copyright © 2015 Nevermore</section>
         </div>
         
         
-        <script src="bootstrap/js/jquery-1.11.2.min.js"></script>
+        <script src="js/jquery-1.11.2.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
-        <script src="mypopup.js"></script>
+        <script src="js/mypopup.js"></script>
     </body>
 </html>
