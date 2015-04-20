@@ -1,11 +1,12 @@
 # linein
 A chrome extension to write and read comments on some sites.
 
-### Test
-To test the UI statically,
-
-1. cd to the "linein" directory
-2. run `node static.js` (Note that `Express` is required)
+### TODO
+* script that displays danmus & forms
+* script that queries & sends danmus (interacting with the server) **later**
+* server that provides danmu-related services
+* database that holds data of danmus
+* ~~user-related stuff~~ extension-related stuff
 
 ### Change log
 ####v0.1.1 (Apr 15, 2015)
