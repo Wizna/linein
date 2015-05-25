@@ -1,0 +1,161 @@
+all {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", sans-serif;
+}
+body {
+  text-align: center;
+}
+
+#content {
+  margin-top: 30px;
+  width: 800px;
+  height: 100%;
+  float: left;
+}
+
+#myTab {
+  width: 200px;
+  height: 100%;
+  float: left;
+}
+
+ul #slisays {
+  width: 200px;
+  height: 70px;
+}
+
+#search-div {
+  width: 300px;
+  float: right;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.entry {
+  float: left;
+}
+
+.input-box {
+  float: left;
+}
+
+.checkbox {
+  float: left;
+}
+
+.username {
+  float: left;
+  font-weight:bold;
+}
+
+.time {
+  width: 160px;
+  margin-left: 5px;
+  margin-right: 15px;
+  float: left;
+  color: gray;
+}
+
+.bar_content {
+  width: 500px;
+  float: left;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  text-align: left;
+  margin-left: 15px;
+}
+
+
+.domain {
+  float: left;
+  color: gray;
+}
+
+
+#avatar {
+  position: relative;
+  left: -200px;
+ 
+}
+
+#nickname {
+  /*width: 400px;*/
+  overflow:hidden;
+  position: absolute;
+  left: 450px;
+  top: 120px;
+}
+
+#rank {
+  overflow:hidden;
+  position: absolute;
+  
+  left: 450px;
+  top: 140px;
+ 
+}
+
+#email {
+  overflow:hidden;
+  position: absolute;
+  
+  left: 450px;
+  top: 160px;
+}
+
+
+#modi_ema {
+ /* position: relative;
+ 
+  left: 20px;*/
+}
+
+#tjxx {
+  overflow: hidden;
+  position: absolute;
+  left: 350px;
+  top: 230px;
+}
+
+#lxdl {
+  overflow: hidden;
+  position: absolute;
+  left: 450px;
+  top: 250px;
+}
+
+#fdsl {
+  overflow: hidden;
+  position: absolute;
+  left: 450px;
+  top: 270px;
+}
+
+
+#modi_ava {
+  width: 200px;
+  position: absolute;
+  left: 333px;
+  top: 340px;
+}
+
+#modi_psw {
+  width: 200px;
+  position: absolute;
+  left: 666px;
+  top: 340px;
+}
+
+hr#hr2 {
+  position: absolute;
+  top: 300px;
+}
+
+hr {
+  width: 760px;
+  text-align: center;
+}
+
+li {
+  list-style-type:none;
+  margin-top: 5px;
+}

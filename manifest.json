@@ -5,12 +5,22 @@
   "description": "This extension shows comments inline",
   "version": "0.1.1",
 
+  "content_scripts":  [{
+
+            "matches":["http://book.zongheng.com/chapter/notorder/*/*"],//哪些http协议支持该插件
+
+            "js":["js/pianyu.js","js/jquery-1.11.2.min.js"]//运行插件需要哪些js文件 *
+
+        }],
+
   "browser_action": {
     "default_icon": "resources/icon.png",
     "default_popup": "mypopup.html"
   },
   "permissions": [
+    "storage",
     "activeTab",
+    "http://*/",
     "https://ajax.googleapis.com/"
   ]
 }

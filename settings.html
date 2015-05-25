@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="iCheck/square/blue.css">
         <script src="js/jquery-1.11.2.min.js"></script>
         <script src="iCheck/icheck.min.js"></script>
+
     </head>
     <body>
         <div id="container">
@@ -20,12 +21,14 @@
             <div class="tab-content">
                 <div class="tab-pane active" id="info" role="tabpanel">
                     <img id="avatar" src="resources/avatar.jpg" />
-                    <section id="nickname">Israfel</section>
+                    <section id="nickname">Iserafel</section>
                     <section id="rank">等级：<span id="rankNumber">14</span></section>
+                    <a href="my_barrage.html#content-selfinfo" class="button button-block button-primary button-rounded button-small" target="_blank">查看详情</a>
+                    <a href="personal_info.html" class="button button-block button-primary button-rounded button-small">注销登录</a>
                 </div>
                 <div class="tab-pane" id="danmu" role="tabpanel">
-                    <a href="#" class="button button-block button-primary button-rounded button-small">我的弹幕</a>
-                    <a href="#" class="button button-block button-primary button-rounded button-small">赞过的弹幕</a>
+                    <a href="my_barrage.html#content-my-barrage" class="button button-block button-primary button-rounded button-small" target="_blank">我的弹幕</a>
+                    <a href="my_barrage.html#content-praise-barrage" class="button button-block button-primary button-rounded button-small" target="_blank">赞过的弹幕</a>
                     <a href="mypopup.html" class="button button-block button-primary button-rounded button-small">Test: href to login</a>
                 </div>
                 <div class="tab-pane" id="settings" role="tabpanel">
@@ -36,15 +39,15 @@
                     </div>
                     <div class="setting" id="setting2">
                         <span class="settingTitle">显示方式</span>
-                        <div class="radioGroup">
-                            <input type="radio" name="viewType" /><span class="choice">最热门</span><br/>
-                            <input type="radio" name="viewType" /><span class="choice">最新</span><br/>
-                            <input type="radio" name="viewType" checked /><span class="choice">随机</span>
+                        <div class="radioGroup" id="type_group">
+                            <input id="radio_hot" type="radio" name="viewType" value="hot"/><span class="choice">最热门</span><br/>
+                            <input id="radio_new" type="radio" name="viewType" value="new"/><span class="choice">最新</span><br/>
+                            <input id="radio_rnd" type="radio" name="viewType" value="random" /><span class="choice">随机</span>
                         </div>
                     </div>
                     <div class="setting" id="setting3">
                         <span class="settingTitle">每页显示</span>
-                        <input id="maxnInput" type="number" value="3" />条
+                        <input id="maxnInput" name="danmuLimit" type="number" value="3" />条
                     </div>
                     
                 </div>
@@ -52,8 +55,8 @@
             <section id="copyright">Copyright © 2015 Nevermore</section>
         </div>
         
-        
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="js/settings.js"></script>
+        
     </body>
 </html>

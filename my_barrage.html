@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/buttons.css">
+        <link rel="stylesheet" type="text/css" href="css/my_barrage.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="iCheck/icheck.min.js"></script>
+    </head>
+
+    <body>
+
+        <ul class="nav nav-pills nav-stacked" id="myTab" role="tablist">
+            <li id="slisays"><h1>Slisays</h1></li>
+            <li id="tab1" class="tabs" role="presentation"><a href="#content-selfinfo">个人信息</a></li>
+            <li id="tab2" class="tabs" role="presentation"><a href="#content-my-barrage">我的弹幕</a></li>
+            <li id="tab3" class="tabs" role="presentation"><a href="#content-praise-barrage">赞的弹幕</a></li>
+        </ul>
+        <div id="content" class="tab-content">
+          <div id="tab-head">
+            <div id="search-div"class="input-group">
+              <input type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">Search</button>
+              </span>
+            </div>
+            <hr>
+          </div>
+
+          <div id="content-my-barrage" class="tab-pane fade" role="tabpanel">
+            <ul id="ul-my-barrage">
+              <li class="entry">
+
+                  <input class="checkbox" type="checkbox">
+                  <span class="time">Mon May 11 2015 01:06</span>
+                  <span class="username">israfel:</span>
+                  <div class="bar_content">
+                  <a href="http://www.bilibili.com/video/av2098846/" id="id-6" target="_top" title="【去违和】周杰伦献唱核爆神曲aLIEz 与霍元甲的remix版本 aHUOz！ - 哔哩哔哩弹幕视频网 - ( ゜- ゜)つロ 乾杯~ - bilibili" column-type="title" tabindex="-1"><nobr>【去违和】周杰伦献唱核爆神曲aLIEz 与霍元甲的remix版本 aHUOz！ - 哔哩哔哩弹幕视频网 - ( ゜- ゜)つロ 乾杯~ - bilibili</nobr></a>
+                  </div>
+                  <div class="domain"></div>
+              </li>
+              <li class="entry">
+
+                  <input class="checkbox" type="checkbox">
+                  <span class="time">Mon May 11 2015 01:06</span>
+                  <span class="username">israfel:</span>
+                  <div class="bar_content">
+                  <a href="http://www.bilibili.com/video/av2098846/" id="id-6" target="_top" title="【去违和】周杰伦献唱核爆神曲aLIEz 与霍元甲的remix版本 aHUOz！ - 哔哩哔哩弹幕视频网 - ( ゜- ゜)つロ 乾杯~ - bilibili" column-type="title" tabindex="-1"><nobr>【去违和】周杰伦献唱核爆神曲aLIEz 与霍元甲的remix版本 aHUOz！ - 哔哩哔哩弹幕视频网 - ( ゜- ゜)つロ 乾杯~ - bilibili</nobr></a>
+                  </div>
+                  <div class="domain"></div>
+              </li>
+            </ul>
+          </div>
+          
+          <div id="content-praise-barrage" class="tab-pane fade" role="tabpanel">
+            <ul>
+     
+            </ul>
+          </div>
+          <div id="content-selfinfo" class="tab-pane fade" role="tabpanel">
+            <div id="block1">
+              <img id="avatar" src="resources/avatar.jpg">
+              <div id="nickname">昵称：<span id="username">Israfel</span></div>
+              <div id="rank">等级：<span id="rankNumber">14</span>
+              </div>
+              <div id="email">邮箱：<span id="emailaddress">huangruiming999@sina.com</span><a id="modi_ema" href="#">修改</a>
+              </div>
+            </div>
+            <hr id="hr1"/>
+            <div id="block2">
+                <p id="tjxx">统计信息</p>
+                <p id="lxdl">连续登录:<span>13</span>天</p>
+                <p id="fdsl">发的数量:<span>301</span>条</p>
+            </div>
+            <hr id="hr2"/>
+            <div id="bloc3">
+              <a id="modi_ava" href="#" class="button button-block button-primary button-rounded button-small">修改头像</a>
+              <a id="modi_psw" href="#" class="button button-block button-primary button-rounded button-small">修改密码</a>
+            </div>
+
+          </div>
+        </div>
+
+        
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/base64.js"></script>
+        
+        <script src="js/my_barrage.js"></script>
+
+    </body>
+</html>
